@@ -1,0 +1,37 @@
+{
+  "stores": [
+    { "url": "https://allbirds.com",         "country": "US", "type": "DTC + Shopify Plus" },
+    { "url": "https://allbirds.eu",          "country": "EU", "type": "Multi-region" },
+    { "url": "https://allbirds.co.uk",       "country": "GB", "type": "Multi-region" },
+    { "url": "https://gymshark.com",         "country": "US", "type": "DTC large (SPA)" },
+    { "url": "https://glossier.com",         "country": "US", "type": "DTC beauty" },
+    { "url": "https://magicspoon.com",       "country": "US", "type": "DTC food (Okendo)" },
+    { "url": "https://feastables.com",       "country": "US", "type": "DTC food (MrBeast)" },
+    { "url": "https://chubbies.com",         "country": "US", "type": "DTC men apparel (Yotpo)" },
+    { "url": "https://nudestix.com",         "country": "US", "type": "DTC small" },
+    { "url": "https://kyliecosmetics.com",   "country": "US", "type": "DTC celeb" },
+    { "url": "https://www.kith.com",         "country": "US", "type": "DTC streetwear" },
+    { "url": "https://us.princesspolly.com", "country": "US", "type": "DTC fashion" },
+    { "url": "https://www.asphaltgold.com",  "country": "DE", "type": "DE sneaker boutique" },
+    { "url": "https://liquiddeath.com",      "country": "US", "type": "DTC beverage" },
+    { "url": "https://hexclad.com",          "country": "US", "type": "DTC cookware" },
+    { "url": "https://drinkpoppi.com",       "country": "US", "type": "DTC beverage" },
+    { "url": "https://ridge.com",            "country": "US", "type": "DTC wallets" },
+    { "url": "https://supergoop.com",        "country": "US", "type": "DTC sun care" },
+    { "url": "https://everlane.com",         "country": "US", "type": "DTC apparel" },
+    { "url": "https://thursdayboots.com",    "country": "US", "type": "DTC men footwear" }
+  ],
+  "edge_cases": [
+    { "url": "https://oloproducts.com",  "expected": "not_shopify",       "reason": "GoDaddy Website Builder, not Shopify" },
+    { "url": "https://bombas.com",       "expected": "shopify_no_products", "reason": "Migrated to Next.js but kept Shopify CDN refs" },
+    { "url": "https://drinkrecess.com",  "expected": "redirect_off_shopify","reason": "Redirects to takearecess.com (not Shopify)" },
+    { "url": "https://athleticgreens.com","expected": "redirect_off_shopify","reason": "Now drinkag1.com on Next.js" },
+    { "url": "https://manscaped.com",    "expected": "cloudflare_403",     "reason": "Cloudflare bot block - works with residential proxy" },
+    { "url": "https://huel.com",         "expected": "products_disabled",  "reason": "/products.json returns 404 AND sitemap_products_1.xml 404" }
+  ],
+  "notes": [
+    "All 'stores' entries empirically verified to return /products.json 200 with valid product data on 2026-04-30.",
+    "expected_apps removed - was found unreliable (brands change tech stacks frequently). The detector reports actual reality, not expected reality.",
+    "edge_cases captures known graceful-failure scenarios. The actor handles each correctly: not_shopify is skipped, products_disabled falls back to sitemap, cloudflare_403 returns an error record."
+  ]
+}

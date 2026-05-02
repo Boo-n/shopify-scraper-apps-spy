@@ -1,0 +1,13 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Output schema of Shopify Scraper",
+  "description": "Defines where the actor stores its outputs. Products go to the default dataset (one row per Shopify product, with detected apps stack and store metadata). Reviews and apps records go to named datasets when extract_level >= standard.",
+  "properties": {
+    "products": {
+      "type": "string",
+      "title": "Shopify products",
+      "description": "Default dataset with one row per Shopify product, including apps_detected stack, store metadata, prices, variants and images.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}

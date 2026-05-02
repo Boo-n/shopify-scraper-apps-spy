@@ -1,0 +1,21 @@
+# NPM
+node_modules
+npm-debug.log
+
+# Apify storage
+storage/
+apify_storage/
+crawlee_storage/
+
+# Editor
+.vscode
+.idea
+.DS_Store
+
+# Tests
+tests/
+
+# Misc
+*.log
+.git
+.gitignore

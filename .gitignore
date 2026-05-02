@@ -1,0 +1,16 @@
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+storage/
+.apify_storage/
+apify_storage/
+key_value_stores/
+datasets/
+request_queues/
+.DS_Store
+.idea/
+.vscode/
+content/
+scripts/publish-*.mjs

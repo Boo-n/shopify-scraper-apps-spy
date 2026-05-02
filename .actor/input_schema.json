@@ -1,0 +1,94 @@
+{
+  "title": "🧩 Shopify Product Scraper - Apps Spy + Reviews",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "store_urls": {
+      "title": "Shopify Store URLs",
+      "type": "array",
+      "description": "List of Shopify store URLs to scrape (e.g. https://allbirds.com). Works with any custom domain or *.myshopify.com URL.",
+      "editor": "stringList",
+      "prefill": ["https://allbirds.com"],
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "extract_level": {
+      "title": "Extraction Level",
+      "type": "string",
+      "description": "Choose what to extract:\n- Basic: products only\n- Standard: products + installed apps detection\n- Full: + reviews from Yotpo / Judge.me / Loox / Stamped\n- Pro: + estimated revenue (advanced)",
+      "editor": "select",
+      "enum": ["basic", "standard", "full", "pro"],
+      "enumTitles": ["Basic (products only)", "Standard (+ apps stack)", "Full (+ reviews)", "Pro (+ revenue est.)"],
+      "default": "standard"
+    },
+    "max_products_per_store": {
+      "title": "Max Products Per Store",
+      "type": "integer",
+      "description": "Cap the number of products extracted per store. Set to 0 for unlimited.",
+      "editor": "number",
+      "default": 250,
+      "minimum": 0,
+      "maximum": 100000
+    },
+    "products_collection_filter": {
+      "title": "Filter by Collection (optional)",
+      "type": "string",
+      "description": "Only extract products from a specific collection handle (e.g. 'sneakers', 'new-arrivals'). Leave empty for full catalog.",
+      "editor": "textfield",
+      "default": ""
+    },
+    "include_variants": {
+      "title": "Include Product Variants",
+      "type": "boolean",
+      "description": "Output one record per variant (size/color/SKU) instead of one per product.",
+      "default": false
+    },
+    "max_reviews_per_product": {
+      "title": "Max Reviews Per Product (Full/Pro level only)",
+      "type": "integer",
+      "description": "How many reviews to extract per product when extract_level=full or pro.",
+      "editor": "number",
+      "default": 20,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "max_concurrent_stores": {
+      "title": "Concurrent Stores (multi-store mode)",
+      "type": "integer",
+      "editor": "number",
+      "description": "Number of stores scraped in parallel. Higher = faster but more memory.",
+      "default": 3,
+      "minimum": 1,
+      "maximum": 10
+    },
+    "max_concurrent_requests": {
+      "title": "Concurrent Requests Per Store",
+      "type": "integer",
+      "editor": "number",
+      "description": "How many parallel HTTP calls per store. Increase for faster runs, decrease if you hit rate-limits.",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 20
+    },
+    "use_residential_proxy": {
+      "title": "Use Residential Proxy (advanced)",
+      "type": "boolean",
+      "description": "Default OFF - datacenter proxy is sufficient for /products.json. Enable only if you scrape >500 stores and hit rate-limits.",
+      "default": false
+    },
+    "proxyConfiguration": {
+      "title": "Proxy Configuration",
+      "type": "object",
+      "description": "Apify proxy configuration. Default: datacenter auto (no group). Override here or use the 'use_residential_proxy' switch above.",
+      "editor": "proxy",
+      "prefill": { "useApifyProxy": true }
+    },
+    "debug_mode": {
+      "title": "Debug Mode",
+      "type": "boolean",
+      "description": "Enable verbose logging and save raw HTML snapshots to KV store on errors.",
+      "default": false
+    }
+  },
+  "required": ["store_urls"]
+}

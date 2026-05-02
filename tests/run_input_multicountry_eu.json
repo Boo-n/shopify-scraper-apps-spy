@@ -1,0 +1,15 @@
+{
+  "store_urls": [
+    "https://www.respire.co",
+    "https://www.coperni.com",
+    "https://www.pinko.com",
+    "https://www.aspesi.com",
+    "https://www.pdpaola.com"
+  ],
+  "extract_level": "standard",
+  "max_products_per_store": 25,
+  "max_concurrent_stores": 3,
+  "max_concurrent_requests": 5,
+  "use_residential_proxy": false,
+  "debug_mode": false
+}

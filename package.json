@@ -1,0 +1,23 @@
+{
+  "name": "shopify-scraper-apps-spy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.js",
+  "description": "Apify actor that detects the tech stack of any Shopify store (apps, reviews providers) plus extracts the full product catalog.",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test tests/",
+    "smoke": "node tests/smoke-products.mjs",
+    "smoke:apps": "node tests/smoke-apps-reviews.mjs"
+  },
+  "dependencies": {
+    "apify": "^3.3.0",
+    "got-scraping": "^4.0.4",
+    "cheerio": "^1.0.0-rc.12",
+    "p-queue": "^8.0.1",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

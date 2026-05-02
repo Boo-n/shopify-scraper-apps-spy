@@ -1,0 +1,51 @@
+{
+  "actorSpecification": 1,
+  "name": "shopify-scraper-apps-spy",
+  "title": "🧩 Shopify Product Scraper - Apps Spy + Reviews",
+  "version": "1.0",
+  "buildTag": "latest",
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 1024,
+  "environmentVariables": {
+    "NODE_OPTIONS": "--max-old-space-size=768"
+  },
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Shopify Store Scraper Dataset",
+      "description": "Extracted Shopify products with apps detection and reviews.",
+      "views": {
+        "overview": {
+          "title": "Products Overview",
+          "transformation": {
+            "fields": [
+              "main_image",
+              "store_domain",
+              "product_title",
+              "price",
+              "available",
+              "apps_detected",
+              "product_url"
+            ]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "main_image":     { "label": "Image",      "format": "image" },
+              "store_domain":   { "label": "Store",      "format": "text" },
+              "product_title":  { "label": "Product",    "format": "text" },
+              "price":          { "label": "Price",      "format": "number" },
+              "available":      { "label": "In Stock",   "format": "boolean" },
+              "apps_detected":  { "label": "Apps Stack", "format": "object" },
+              "product_url":    { "label": "Link",       "format": "link" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
