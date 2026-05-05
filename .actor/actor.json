@@ -1,7 +1,7 @@
 {
   "actorSpecification": 1,
   "name": "shopify-scraper-apps-spy",
-  "title": "🧩 Shopify Product Scraper - Apps Spy + Reviews",
+  "title": "🧩 Shopify Apps Spy + Product Scraper",
   "version": "1.0",
   "buildTag": "latest",
   "minMemoryMbytes": 256,
