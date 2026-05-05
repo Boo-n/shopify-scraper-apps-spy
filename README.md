@@ -1,16 +1,30 @@
-# 🧩 Shopify Scraper — Apps Spy + Products + Reviews
+# 🧩 Shopify Apps Spy + Product Scraper
+
+[![Apify Actor](https://img.shields.io/badge/Apify-Run%20on%20Apify-1e88e5?logo=apify&logoColor=white)](https://apify.com/kazkn/shopify-scraper-apps-spy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![YouTube tutorial](https://img.shields.io/badge/Tutorial-YouTube-red?logo=youtube&logoColor=white)](https://youtu.be/jxpSVYvZBFw)
 
 **Paste a [Shopify](https://www.shopify.com) store URL, click Run, and get the full tech stack + product catalog + reviews in seconds.**
 
-🧩 **Shopify Scraper** is the only [Apify Actor](https://apify.com/store) that auto-detects the **150+ apps installed on any Shopify store** ([Klaviyo](https://www.klaviyo.com), [Recharge](https://rechargepayments.com), [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Privy](https://www.privy.com), [Gorgias](https://www.gorgias.com), [Algolia](https://www.algolia.com), [Okendo](https://www.okendo.com), [Iterable](https://iterable.com), [Bloomreach](https://www.bloomreach.com), and many more) — combined with the **full product catalog** via the official [`/products.json`](https://shopify.dev/docs/api/ajax/section/product) endpoint and **reviews** from every major review provider.
+🧩 **Shopify Apps Spy + Product Scraper** is the only [Apify Actor](https://apify.com/store) that auto-detects the **150+ apps installed on any Shopify store** ([Klaviyo](https://www.klaviyo.com), [Recharge](https://rechargepayments.com), [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Privy](https://www.privy.com), [Gorgias](https://www.gorgias.com), [Algolia](https://www.algolia.com), [Okendo](https://www.okendo.com), [Iterable](https://iterable.com), [Bloomreach](https://www.bloomreach.com), and many more) — combined with the **full product catalog** via the official [`/products.json`](https://shopify.dev/docs/api/ajax/section/product) endpoint and **reviews** from every major review provider.
 
 Built for B2B SaaS lead-gen, DTC competitive intel, and agency tech audits. **No login. No API key. No proxy required for most stores.**
 
 ---
 
+## 🎬 Video Tutorial — See It in Action
+
+[![Shopify Apps Spy + Product Scraper Tutorial](https://img.youtube.com/vi/jxpSVYvZBFw/maxresdefault.jpg)](https://youtu.be/jxpSVYvZBFw)
+
+▶️ Watch the full tutorial — from a Shopify store URL to apps + products + reviews in under 3 minutes.
+
+*(🇫🇷 [Tutoriel français](https://youtu.be/JVnUpT7mjMw) · 🇩🇪 [Auf Deutsch](https://youtu.be/ujS8P1hpMTI) · 🇪🇸 [En español](https://youtu.be/pUiu2Usvpb0))*
+
+---
+
 ## 🔍 What does this Shopify scraper do?
 
-🧩 Shopify Scraper turns any Shopify URL into structured intelligence in **under 30 seconds**.
+🧩 Shopify Apps Spy + Product Scraper turns any Shopify URL into structured intelligence in **under 30 seconds**.
 
 You simply:
 
@@ -55,7 +69,7 @@ The actor extracts:
 
 ## 🚀 How to scrape Shopify products in 3 steps
 
-Setting up 🧩 Shopify Scraper takes **less than a minute**:
+Setting up 🧩 Shopify Apps Spy + Product Scraper takes **less than a minute**:
 
 1. Open the actor on [Apify Console](https://console.apify.com/actors/kazkn~shopify-scraper-apps-spy) and paste one or more **Shopify store URLs** in the input field (custom domain like `https://allbirds.com` or any `*.myshopify.com`).
 2. Pick an **Extraction Level** that matches what you need:
@@ -112,7 +126,7 @@ The detector spots the entire installed tech stack of any Shopify by running a l
 
 ## 💰 Pricing
 
-🧩 Shopify Scraper uses **pay-per-event** pricing. You only pay for what you actually extract:
+🧩 Shopify Apps Spy + Product Scraper uses **pay-per-event** pricing. You only pay for what you actually extract:
 
 | Event | When it fires | Price |
 |---|---|---|
@@ -255,7 +269,7 @@ One row per review with normalized provider-agnostic fields:
 
 ## 🌍 Supported Shopify markets and stores
 
-🧩 Shopify Scraper works on **any [Shopify](https://www.shopify.com) storefront worldwide** — custom domain, `*.myshopify.com`, regional subdomains, [Shopify Plus](https://www.shopify.com/plus).
+🧩 Shopify Apps Spy + Product Scraper works on **any [Shopify](https://www.shopify.com) storefront worldwide** — custom domain, `*.myshopify.com`, regional subdomains, [Shopify Plus](https://www.shopify.com/plus).
 
 ✅ Empirically tested on stores from these countries before publishing:
 
@@ -265,9 +279,9 @@ The endpoint we use ([`/products.json`](https://shopify.dev/docs/api/ajax/sectio
 
 ---
 
-## 🧭 When to use Shopify Scraper vs alternatives
+## 🧭 When to use Shopify Apps Spy + Product Scraper vs alternatives
 
-Use **🧩 Shopify Scraper** if you want:
+Use **🧩 Shopify Apps Spy + Product Scraper** if you want:
 
 * The only [Apify Shopify scraper](https://apify.com/store?search=shopify) with **installed-apps detection**
 * Catalog + apps + reviews in one run
@@ -292,7 +306,7 @@ Use **a generic [web scraper](https://apify.com/apify/web-scraper)** if you only
 
 This actor is part of the [KazKN](https://apify.com/kazkn) family of scrapers and MCP servers on Apify:
 
-* [🧩 Shopify Scraper — Apps Spy + Products + Reviews](https://apify.com/kazkn/shopify-scraper-apps-spy) — this actor
+* [🧩 Shopify Apps Spy + Product Scraper](https://apify.com/kazkn/shopify-scraper-apps-spy) — this actor
 * [Vinted Smart Scraper — Cross-Country Price Comparison](https://apify.com/kazkn/vinted-smart-scraper) — full Vinted intelligence across 26 markets
 * [⚡ Vinted Turbo Scraper](https://apify.com/kazkn/vinted-turbo-scraper) — fastest Vinted URL-to-dataset workflow
 * [Vinted MCP Server](https://apify.com/kazkn/vinted-mcp-server) — connect any AI agent ([Claude](https://claude.ai), [Cursor](https://cursor.com), [Windsurf](https://codeium.com/windsurf)) to Vinted data
