@@ -6,25 +6,15 @@
 
 **Paste a [Shopify](https://www.shopify.com) store URL, click Run, and get the full tech stack + product catalog + reviews in seconds.**
 
-🧩 **Shopify Apps Spy + Product Scraper** is the only [Apify Actor](https://apify.com/store) that auto-detects the **150+ apps installed on any Shopify store** ([Klaviyo](https://www.klaviyo.com), [Recharge](https://rechargepayments.com), [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Privy](https://www.privy.com), [Gorgias](https://www.gorgias.com), [Algolia](https://www.algolia.com), [Okendo](https://www.okendo.com), [Iterable](https://iterable.com), [Bloomreach](https://www.bloomreach.com), and many more) — combined with the **full product catalog** via the official [`/products.json`](https://shopify.dev/docs/api/ajax/section/product) endpoint and **reviews** from every major review provider.
-
-Built for B2B SaaS lead-gen, DTC competitive intel, and agency tech audits. **No login. No API key. No proxy required for most stores.**
-
----
-
-## 🎬 Video Tutorial — See It in Action
-
-[![Shopify Apps Spy + Product Scraper Tutorial](https://img.youtube.com/vi/jxpSVYvZBFw/maxresdefault.jpg)](https://youtu.be/jxpSVYvZBFw)
-
-▶️ Watch the full tutorial — from a Shopify store URL to apps + products + reviews in under 3 minutes.
-
-*(🇫🇷 [Tutoriel français](https://youtu.be/JVnUpT7mjMw) · 🇩🇪 [Auf Deutsch](https://youtu.be/ujS8P1hpMTI) · 🇪🇸 [En español](https://youtu.be/pUiu2Usvpb0))*
-
----
+🧩 **Shopify Apps Spy + Product Scraper** is built for one thing: turning any Shopify store URL into structured intelligence — apps stack, full product catalog, and reviews — in a single call.
 
 ## 🔍 What does this Shopify scraper do?
 
-🧩 Shopify Apps Spy + Product Scraper turns any Shopify URL into structured intelligence in **under 30 seconds**.
+🧩 Shopify Apps Spy + Product Scraper is the only [Apify Actor](https://apify.com/store) that auto-detects the **150+ apps installed on any Shopify store** ([Klaviyo](https://www.klaviyo.com), [Recharge](https://rechargepayments.com), [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Privy](https://www.privy.com), [Gorgias](https://www.gorgias.com), [Algolia](https://www.algolia.com), [Okendo](https://www.okendo.com), [Iterable](https://iterable.com), [Bloomreach](https://www.bloomreach.com), and many more) — combined with the **full product catalog** via the official [`/products.json`](https://shopify.dev/docs/api/ajax/section/product) endpoint and **reviews** from every major review provider.
+
+Built for B2B SaaS lead-gen, DTC competitive intel, and agency tech audits. **No login. No API key. No proxy required for most stores.**
+
+It turns any Shopify URL into structured intelligence in **under 30 seconds**.
 
 You simply:
 
@@ -40,6 +30,16 @@ The actor extracts:
 * ⭐ **Reviews** from [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Stamped](https://stamped.io), [Okendo](https://www.okendo.com), [Loox](https://loox.io) (Full mode)
 * 💰 **Estimated revenue** from scarcity signals + review velocity (Pro mode)
 * 🏷️ **Store metadata** — name, currency, country, myshopify domain, total products
+
+---
+
+## 🎬 Video Tutorial — See It in Action
+
+[![Shopify Apps Spy + Product Scraper Tutorial](https://img.youtube.com/vi/jxpSVYvZBFw/maxresdefault.jpg)](https://youtu.be/jxpSVYvZBFw)
+
+▶️ Watch the full tutorial — from a Shopify store URL to apps + products + reviews in under 3 minutes.
+
+*(🇫🇷 [Tutoriel français](https://youtu.be/JVnUpT7mjMw) · 🇩🇪 [Auf Deutsch](https://youtu.be/ujS8P1hpMTI) · 🇪🇸 [En español](https://youtu.be/pUiu2Usvpb0))*
 
 ---
 
