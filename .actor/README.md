@@ -1,4 +1,4 @@
-# 🧩 Shopify Apps Spy + Product Scraper
+# 🧩 Shopify Apps Spy + Product Scraper — Apps Stack, Products & Reviews from Any Shopify Store
 
 [![Apify Actor](https://img.shields.io/badge/Apify-Run%20on%20Apify-1e88e5?logo=apify&logoColor=white)](https://apify.com/kazkn/shopify-scraper-apps-spy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
