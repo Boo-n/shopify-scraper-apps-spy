@@ -10,8 +10,6 @@
 
 ## 🔍 What does this Shopify scraper do?
 
-🧩 Shopify Apps Spy + Product Scraper is the only [Apify Actor](https://apify.com/store) that auto-detects the **150+ apps installed on any Shopify store** ([Klaviyo](https://www.klaviyo.com), [Recharge](https://rechargepayments.com), [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Privy](https://www.privy.com), [Gorgias](https://www.gorgias.com), [Algolia](https://www.algolia.com), [Okendo](https://www.okendo.com), [Iterable](https://iterable.com), [Bloomreach](https://www.bloomreach.com), and many more) — combined with the **full product catalog** via the official [`/products.json`](https://shopify.dev/docs/api/ajax/section/product) endpoint and **reviews** from every major review provider.
-
 Built for B2B SaaS lead-gen, DTC competitive intel, and agency tech audits. **No login. No API key. No proxy required for most stores.**
 
 It turns any Shopify URL into structured intelligence in **under 30 seconds**.
@@ -26,8 +24,8 @@ You simply:
 The actor extracts:
 
 * 🛍️ **Full product catalog** — title, handle, vendor, type, tags, description, prices, variants, images, inventory signals
-* 🧩 **Detected apps** — [Klaviyo](https://www.klaviyo.com), [Recharge](https://rechargepayments.com), [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Privy](https://www.privy.com), [Gorgias](https://www.gorgias.com), [Algolia](https://www.algolia.com), [Okendo](https://www.okendo.com), [Iterable](https://iterable.com), [Bloomreach](https://www.bloomreach.com), [Braze](https://www.braze.com), [Smile.io](https://smile.io), [LoyaltyLion](https://loyaltylion.com), [Weglot](https://www.weglot.com), [Rebuy](https://www.rebuyengine.com), [Shogun](https://getshogun.com), [PageFly](https://pagefly.io), [Hotjar](https://www.hotjar.com), [GTM](https://tagmanager.google.com), [Facebook Pixel](https://www.facebook.com/business/help/952192354843755), [TikTok Pixel](https://ads.tiktok.com), and 30+ more
-* ⭐ **Reviews** from [Yotpo](https://www.yotpo.com), [Judge.me](https://judge.me), [Stamped](https://stamped.io), [Okendo](https://www.okendo.com), [Loox](https://loox.io) (Full mode)
+* 🧩 **Detected apps** — Klaviyo, Recharge, Yotpo, Judge.me, Privy, Gorgias, Algolia, Okendo, Iterable, Bloomreach, Braze, Smile.io, LoyaltyLion, Weglot, Rebuy, Shogun, PageFly, Hotjar, GTM, Facebook Pixel, TikTok Pixel, and 30+ more
+* ⭐ **Reviews** from Yotpo, Judge.me, Stamped, Okendo, Loox (Full mode)
 * 💰 **Estimated revenue** from scarcity signals + review velocity (Pro mode)
 * 🏷️ **Store metadata** — name, currency, country, myshopify domain, total products
 
