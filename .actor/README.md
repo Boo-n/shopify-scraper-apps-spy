@@ -1,5 +1,7 @@
 # 🧩 Shopify Apps Spy + Product Scraper — Apps Stack, Products & Reviews from Any Shopify Store
 
+> **Apps stack + product catalog + reviews from any Shopify store, in one Apify call.**
+
 [![Apify Actor](https://img.shields.io/badge/Apify-Run%20on%20Apify-1e88e5?logo=apify&logoColor=white)](https://apify.com/kazkn/shopify-scraper-apps-spy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![YouTube tutorial](https://img.shields.io/badge/Tutorial-YouTube-red?logo=youtube&logoColor=white)](https://youtu.be/jxpSVYvZBFw)
