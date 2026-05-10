@@ -10,20 +10,20 @@ The relevant facts about Apify's [Partner program](https://apify.com/partners):
 - **$2,500 flat per Pro Services customer** referred to Apify's professional services.
 - **No time limit**: as long as the referred user stays on a paid plan, you keep earning the recurring 30%. There is no 90-day or 12-month cookie cutoff like Amazon Affiliates.
 - **First payout is 30 days after the first referred conversion** — meaning the platform waits one billing cycle before releasing earned commission.
-- **Tracking is automatic**: any user who clicks an `?ref=kazkn` (or `&fpr=kazkn`) link to apify.com and signs up within the cookie window is attributed.
+- **Tracking is automatic**: any user who clicks a `?fpr=8fp2od` link to apify.com and signs up within the cookie window is attributed.
 
 ## How to claim a referred user
 
 Append `?fpr=YOUR_AFFILIATE_ID` to any apify.com link. The most common form for Boon's actor:
 
 ```
-https://apify.com/kazkn/shopify-scraper-apps-spy?fpr=kazkn
+https://apify.com/kazkn/shopify-scraper-apps-spy?fpr=8fp2od
 ```
 
 Or on the generic platform sign-up CTA:
 
 ```
-https://apify.com/sign-up?fpr=kazkn
+https://apify.com/sign-up?fpr=8fp2od
 ```
 
 The link works the same way in articles, in YouTube descriptions, in Tweet replies, in cold-email signatures.
@@ -59,7 +59,7 @@ This is also the line the YouTube videos all close on, so the message reinforces
 Apify pays 30% on the **subscription**, not on actor usage. So on top of "use my actor", I should also:
 
 - Mention the **Apify Store** in articles for users who need OTHER scrapers — when readers click through and sign up, they're attributed to me even if they never run my actor.
-- Reference my **other actors** (Vinted Turbo, Vinted Smart, GPT Crawler MCP, Vinted MCP Server, RedNote scraper, Watch Arbitrage MCP) — same `?fpr=kazkn` works for all of them.
+- Reference my **other actors** (Vinted Turbo, Vinted Smart, GPT Crawler MCP, Vinted MCP Server, RedNote scraper, Watch Arbitrage MCP) — same `?fpr=8fp2od` works for all of them.
 - Recommend **Apify Pro Services** when readers describe a custom-build problem in comments — that's a $2,500 flat referral if they convert.
 
 ## Tracking referrals in the Apify dashboard
@@ -86,7 +86,7 @@ The terms forbid sketchy tactics:
 ## Action items (this quarter)
 
 - [x] Read the [Apify Partner Terms](https://apify.com/partners) end-to-end
-- [x] Add `?fpr=kazkn` to all README CTA links (next commit)
+- [x] Add `?fpr=8fp2od` to all README CTA links (next commit)
 - [x] Document program details in this file for future content sessions
 - [ ] Add affiliate link to YouTube description (Marie does in YouTube Studio)
 - [ ] Add affiliate link to Boon's email signature (Marie's account setting)
